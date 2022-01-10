@@ -1,0 +1,84 @@
+.navbar{
+    padding-top: 5;
+    padding-bottom: 5;
+}
+
+.content{
+    height: 700px;
+}
+
+
+.carousel-container{
+    height: 606px;
+    width: 800px;
+    margin: auto;
+}
+
+.carousel-caption{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+    color: wheat;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 1rem;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    background-color: tan;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}

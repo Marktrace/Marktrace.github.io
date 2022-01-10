@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Book Barn, Online EBook Library</title>
+  </head>
+
+  <body style="background-color: wheat;">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: tan;">
+      <div class="container-fluid" style="background-color: tan;">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">My Barn</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="content" style="background-color: wheat;">
+      <h1>Trending Books</h1>
+
+      <div class="carousel-container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/img1.jpg" width="400" height="600" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>by Ramit Sethi</h5>
+                <p>$5.99 only</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/img2.jpg" width="400" height="600" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>by Neil deGrasse Tyson</h5>
+                <p>$10.99 only</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/img3.jpg" width="400" height="600" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>by Henrik Fexeus</h5>
+                <p>$12.79 only</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!--recommended books-->
+      <div class="container" style="margin: 1rem auto;">
+        <h2 style="text-align: center;">Recommended Books</h2>
+      </div>
+
+      <!--images of books-->
+
+      <div class="imgcontainer">
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img4.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img5.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img6.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img7.jpg" width="200px" height="300px" alt="">
+        </div>
+
+      </div>
+
+      <div class="imgcontainer">
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img8.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img9.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img10.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img11.jpg" width="200px" height="300px" alt="">
+        </div>
+        
+      </div>
+
+      <div class="imgcontainer">
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img12.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img3.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img14.jpg" width="200px" height="300px" alt="">
+        </div>
+
+        <div style="width: 200px; height: 300px;">
+          <img src="images/img2.jpg" width="200px" height="300px" alt="">
+        </div>
+        
+      </div>
+
+
+      <!--end of content-->
+    
+
+
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>the book barn</h3>
+        <p>An online E-Book Library. <br> Access to 500+ books, free of cost. <br> 
+            India's most popular Online texbook platform.</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+    
+    
+   <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Popper and Bootstrap JS -->
+    
+    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
